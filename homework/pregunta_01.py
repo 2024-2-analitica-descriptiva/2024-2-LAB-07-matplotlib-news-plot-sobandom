@@ -8,6 +8,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
+# Configurar Matplotlib para usar el backend 'Agg'
+plt.switch_backend('Agg')
+
 def pregunta_01():
     """
     Siga las instrucciones del video https://youtu.be/qVdwpxG_JpE para
